@@ -1,0 +1,31 @@
+{
+  "name": "genpark-ai-qa-test-generator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Automated QA regression test case generator from feature descriptions.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "qa",
+    "testing",
+    "regression",
+    "automation"
+  ],
+  "inputs": {
+    "feature_description": {
+      "type": "string"
+    },
+    "test_framework": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "test_cases": {
+      "type": "array"
+    },
+    "coverage_areas": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
